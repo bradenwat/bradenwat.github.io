@@ -5,7 +5,7 @@ let p =0;
 let score= 0;
 function setup() {
   //set up
-  createCanvas(600,600);
+  createCanvas(1000,1000);
   for (let i = 0; i < 5;i++){
     Solar[i]= new solar();
   }
